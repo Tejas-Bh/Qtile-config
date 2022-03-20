@@ -130,18 +130,6 @@ layouts = [
 
 # colors for the bar/widgets/panel
 def init_colors():
-    return [["#282a36", "#282a36"], # color 0 | bg
-            ["#263238", "#263238"], # color 1 | bg
-            ["#f8f8f2", "#f8f8f2"], # color 2 | fg
-            ["#ff5555", "#ff5555"], # color 3 | red
-            ["#50fa7b", "#50fa7b"], # color 4 | green
-            ["#f1fa8c", "#f1fa8c"], # color 5 | yellow
-            ["#bd93f9", "#bd93f9"], # color 6 | blue
-            ["#ff79c6", "#ff79c6"], # color 7 | magenta
-            ["#8be9fd", "#8be9fd"], # color 8 | cyan
-            ["#bbbbbb", "#bbbbbb"]] # color 9 | white
-
-def initcolors():
     return [
         ["", ""], # color 0
         ["#263238", "#263238"], # color 1 (bg)
@@ -172,7 +160,7 @@ def init_edge_spacer():
                 background = colors[1])
 
 
-colors = initcolors()
+colors = init_colors()
 sep = init_separator()
 space = init_edge_spacer()
 
