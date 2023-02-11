@@ -2,7 +2,7 @@
 This is my qtile rice for ubuntu.
 
 Requirements:
-- compton (picom on arch)
+- compton/picom
 - dunst
 - rofi
 - thunar
