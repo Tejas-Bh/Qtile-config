@@ -2,11 +2,12 @@
 This is my qtile rice for ubuntu.
 
 Requirements:
-- compton/picom
-- dunst
-- rofi
-- thunar
+- picom (compositor)
+- dunst (notifications)
+- rofi  (application launcher)
+- thunar (file manager)
 - xfce4-power-manager
+- feh (wallpaper)
 
 This rice is heavily based off of the Adapta-Nokto Gtk theme, so you should probably install that too.
 I also took a lot of inspiration for the bar from [axyl-os/axyl-qtile.](https://github.com/axyl-os/axyl-qtile)
